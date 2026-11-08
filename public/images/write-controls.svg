@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="350" viewBox="0 0 1080 350" role="img" aria-labelledby="title desc">
+<title id="title">书写任务的三个控制入口</title>
+<desc id="desc">开始书写前检查纸张、笔尖和路径。暂停可暂时观察，停止会终止本次任务。软件显示完成并且机器抬笔停稳后再取纸。</desc>
+<rect width="1080" height="350" rx="20" fill="#f7f4f9"/>
+<g font-family="system-ui,'PingFang SC','Microsoft YaHei',sans-serif" fill="#302938">
+<text x="40" y="52" font-size="27" font-weight="700">任务控制：知道何时开始，也知道何时停下</text>
+<rect x="40" y="90" width="300" height="62" rx="10" fill="#7059b7"/>
+<rect x="390" y="90" width="300" height="62" rx="10" fill="#fff" stroke="#b4a5c4"/>
+<rect x="740" y="90" width="300" height="62" rx="10" fill="#fff0ef" stroke="#b9564b"/>
+<g font-size="24" text-anchor="middle" font-weight="700"><text x="190" y="130" fill="#fff">▶ 开始书写</text><text x="540" y="130">Ⅱ 暂停</text><text x="890" y="130" fill="#a43d33">■ 停止</text></g>
+<g font-size="19"><text x="60" y="195">纸张固定、路径和笔高已检查</text><text x="408" y="195">暂时停下，观察当前情况</text><text x="757" y="195">终止任务，先核对再处理</text><text x="60" y="229">首次先写少量内容</text><text x="408" y="229">确认安全后再继续</text><text x="757" y="229">避免直接重发造成重描</text></g>
+<text x="40" y="285" font-size="20" font-weight="700">取纸前：完成提示 ＋ 已抬笔 ＋ 机器停稳</text>
+<text x="40" y="321" font-size="16" fill="#82768b">入口示意，非真实界面截图。软件“停止”不能替代设备自身的紧急断电措施。</text>
+</g></svg>

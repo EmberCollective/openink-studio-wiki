@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="610" viewBox="0 0 1080 610" role="img" aria-labelledby="title desc">
+<title id="title">两点校准：画布上的点对应纸上的点</title>
+<desc id="desc">在画布与纸面选择同样的两个特征，间距至少一百毫米。先点动对齐第一点，确认后机器抬笔移向第二点，再点动微调和确认。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10" fill="#7059b7"/></marker></defs>
+<rect width="1080" height="610" rx="20" fill="#f7f4f9"/>
+<g font-family="system-ui,'PingFang SC','Microsoft YaHei',sans-serif" fill="#302938">
+<text x="40" y="52" font-size="27" font-weight="700">先选同一对点，再让软件建立对应关系</text>
+<text x="40" y="87" font-size="18">两点至少相距 100 mm；选择机器能够安全到达的特征。</text>
+<g fill="white" stroke="#ddd4e9" stroke-width="2"><rect x="100" y="120" width="300" height="310" rx="8"/><rect x="680" y="120" width="300" height="310" rx="8"/></g>
+<text x="190" y="157" font-size="21" font-weight="700">软件画布</text><text x="763" y="157" font-size="21" font-weight="700">真实纸张</text>
+<g stroke="#d8d0df" stroke-width="2"><path d="M130 220H370M130 280H370M130 340H370M710 220H950M710 280H950M710 340H950"/></g>
+<g stroke="#7059b7" stroke-width="3" stroke-dasharray="7 5"><path d="M150 210L340 350M730 210L920 350"/></g>
+<path d="M430 270H645" stroke="#7059b7" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="455" y="248" font-size="18">同一对特征</text>
+<g fill="#7059b7"><circle cx="150" cy="210" r="18"/><circle cx="730" cy="210" r="18"/><circle cx="340" cy="350" r="18"/><circle cx="920" cy="350" r="18"/></g>
+<g fill="white" font-size="20" text-anchor="middle"><text x="150" y="217">1</text><text x="730" y="217">1</text><text x="340" y="357">2</text><text x="920" y="357">2</text></g>
+<text x="123" y="398" font-size="17">把定位点拖到特征上</text><text x="704" y="398" font-size="17">把笔尖点动到对应点</text>
+<g font-size="18"><text x="45" y="485" font-weight="700">① 对齐点 1</text><text x="45" y="518">点动 → 确认</text><text x="385" y="485" font-weight="700">② 自动移向点 2</text><text x="385" y="518">先抬笔 → 移动 → 停稳</text><text x="755" y="485" font-weight="700">③ 微调并确认点 2</text><text x="755" y="518">小步长点动 → 完成校准</text></g>
+<text x="40" y="574" font-size="16" fill="#82768b">操作示意 · 不按比例绘制 · 确认第一点会触发机器移动，请先检查路径和可达范围</text>
+</g></svg>

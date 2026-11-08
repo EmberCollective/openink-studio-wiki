@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="530" viewBox="0 0 1000 530" role="img" aria-labelledby="title desc">
+<title id="title">新建一张 A4 画布</title><desc id="desc">打开画板的版面设置，选择 A4 文档，核对页面宽度二百一十毫米、页面高度二百九十七毫米。纸张尺寸不等于设备实际行程。</desc>
+<rect width="1000" height="530" rx="20" fill="#f7f4f9"/>
+<g font-family="system-ui,'PingFang SC','Microsoft YaHei',sans-serif" fill="#302938">
+<text x="40" y="55" font-size="28" font-weight="700">第一张纸：选择 A4，再检查尺寸</text>
+<rect x="90" y="125" width="240" height="340" fill="white" stroke="#b7a8c8" stroke-width="2"/>
+<text x="210" y="270" text-anchor="middle" font-size="40" fill="#7059b7" font-weight="700">A4</text>
+<text x="210" y="310" text-anchor="middle" font-size="19">竖向画布</text>
+<g stroke="#9b89ae" stroke-width="2"><path d="M90 105H330M90 98V112M330 98V112M65 125V465M58 125H72M58 465H72"/></g>
+<text x="210" y="95" text-anchor="middle" font-size="19">210 mm</text>
+<text x="45" y="295" text-anchor="middle" font-size="19" transform="rotate(-90 45 295)">297 mm</text>
+<text x="420" y="154" font-size="23" font-weight="700">① 画板 → 版面设置 → 模板库</text>
+<text x="420" y="199" font-size="21">选择「A4 文档」</text>
+<text x="420" y="270" font-size="23" font-weight="700">② 核对页面宽度和高度</text>
+<text x="420" y="315" font-size="21">宽度 210 mm · 高度 297 mm</text>
+<text x="420" y="388" font-size="20">先放一小段文字，在废纸上试写。</text>
+<text x="420" y="424" font-size="18" fill="#82768b">画布大小不代表机器已验证能走满整张纸。</text>
+<text x="40" y="500" font-size="16" fill="#82768b">尺寸与入口示意，非软件界面截图</text>
+</g></svg>

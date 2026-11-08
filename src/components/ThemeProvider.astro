@@ -1,0 +1,10 @@
+---
+import DefaultThemeProvider from '@astrojs/starlight/components/ThemeProvider.astro';
+---
+<script is:inline>
+  // An empty preference means the user explicitly chose the system theme.
+  if (typeof localStorage !== 'undefined' && localStorage.getItem('starlight-theme') === null) {
+    localStorage.setItem('starlight-theme', 'light');
+  }
+</script>
+<DefaultThemeProvider />

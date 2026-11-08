@@ -1,0 +1,8 @@
+---
+const { src, alt, caption, label = '界面参考', narrow = false } = Astro.props;
+---
+<figure class:list={['tutorial-figure', { narrow }]}>
+  <div class="figure-label"><span></span>{label}</div>
+  <div class="figure-image"><a href={src} target="_blank" rel="noopener noreferrer" aria-label={`查看大图：${alt}`}><img src={src} alt={alt} loading="lazy" /></a></div>
+  <figcaption>{caption}</figcaption>
+</figure>

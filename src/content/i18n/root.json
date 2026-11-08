@@ -1,0 +1,9 @@
+{
+  "pagefind.search_label": "搜索本站",
+  "pagefind.clear_search": "清除",
+  "pagefind.load_more": "显示更多",
+  "pagefind.zero_results": "没有找到“[SEARCH_TERM]”的相关内容",
+  "pagefind.one_result": "找到 [COUNT] 条相关内容",
+  "pagefind.many_results": "找到 [COUNT] 条相关内容",
+  "pagefind.searching": "正在查找“[SEARCH_TERM]”…"
+}

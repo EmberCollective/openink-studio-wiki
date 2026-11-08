@@ -1,0 +1,28 @@
+---
+const base = import.meta.env.BASE_URL;
+---
+<section class="ink-hero" aria-labelledby="_top">
+  <div class="ink-hero-copy">
+    <p class="eyebrow"><span></span> 每一次落笔，都从这里开始</p>
+    <h1 id="_top" data-page-title>从屏幕，<br/>到<span>纸面。</span></h1>
+    <p class="hero-intro">把想写的话，交给纸笔。<br/>从第一张 A4 纸开始，跟着图文步骤完成你的第一份作品。</p>
+    <div class="hero-links">
+      <a class="ink-primary" href={`${base}guide/first-write/`}>开始第一次书写 <span aria-hidden="true">↗</span></a>
+      <a class="ink-secondary" href={`${base}guide/pdf-write/`}>我想在 PDF 上填写文字 <span aria-hidden="true">→</span></a>
+    </div>
+    <p class="hero-footnote">两篇入门教程 · 从准备画布到完成书写</p>
+  </div>
+  <div class="paper-scene" role="img" aria-label="纸张上的你好世界与书写路径示意，非实际书写结果">
+    <div class="scene-grid"></div><div class="paper-shadow"></div>
+    <div class="hero-paper">
+      <div class="paper-meta"><span>OPENINK STUDIO</span><span>001</span></div>
+      <div class="paper-heading">留一点想象，给纸面。</div>
+      <div class="handwriting">你好，<br/>世界。</div>
+      <div class="ink-path"><span></span><i></i></div>
+      <div class="paper-signature">A little space for your ideas.</div>
+      <div class="paper-bottom"><span>A4 · 210 × 297 mm</span><span>FIRST WORDS</span></div>
+    </div>
+    <div class="scene-label"><span class="label-dot"></span> 你的第一笔，从这里开始</div>
+    <div class="scene-caption">纸面示意</div>
+  </div>
+</section>
