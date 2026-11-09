@@ -69,10 +69,10 @@ h1[data-page-title] { font-size: clamp(2rem, 3vw, 2.85rem); letter-spacing: -.05
 .paper-scene { position: relative; min-height: 33rem; isolation: isolate; }
 .scene-grid { position: absolute; inset: 0; background-image: radial-gradient(var(--ink-line) 1px, transparent 1px); background-size: 20px 20px; mask-image: radial-gradient(ellipse, black 15%, transparent 73%); z-index: -2; }
 .paper-shadow { position: absolute; width: 67%; height: 83%; background: #e8e2f0; transform: rotate(5deg); top: 7%; left: 21%; border: 1px solid #d7d0df; }
-.hero-paper { position: absolute; width: 67%; height: 83%; top: 5%; left: 14%; padding: 1.6rem 1.8rem; background: #fffefb; color: #34303d; transform: rotate(-6deg); box-shadow: 0 20px 55px #34214414; border: 1px solid #e7e0d7; display: flex; flex-direction: column; background-image: repeating-linear-gradient(transparent 0, transparent 31px, #e8e2da50 32px); }
+.hero-paper { container-type: inline-size; position: absolute; width: 67%; height: 83%; top: 5%; left: 14%; padding: 1.6rem 1.8rem; background: #fffefb; color: #34303d; transform: rotate(-6deg); box-shadow: 0 20px 55px #34214414; border: 1px solid #e7e0d7; display: flex; flex-direction: column; background-image: repeating-linear-gradient(transparent 0, transparent 31px, #e8e2da50 32px); }
 .paper-meta { display: flex; justify-content: space-between; color: #8e8494; font-size: .48rem; letter-spacing: .12em; padding-bottom: .8rem; border-bottom: 1px solid #ddd5e5; }
 .paper-heading { font-size: .7rem; color: #9d91ab; margin-top: 1.4rem; }
-.handwriting { font-family: 'Kaiti SC', 'STKaiti', 'KaiTi', 'Songti SC', serif; font-size: clamp(2.7rem, 5vw, 4.5rem); line-height: 1.65; letter-spacing: .09em; color: #6a529e; margin-top: .6rem; }
+.handwriting { font-family: 'Kaiti SC', 'STKaiti', 'KaiTi', 'Songti SC', serif; font-size: min(4.5rem, 26cqi); line-height: 1.65; letter-spacing: .09em; color: #6a529e; margin-top: .6rem; }
 .ink-path { width: 75%; height: 1.4rem; border-bottom: 1px dashed #a293b9; position: relative; }
 .ink-path > span { width: 7px; height: 7px; background: #9e8abf; border-radius: 50%; position: absolute; bottom: -4px; left: -4px; }
 .ink-path i { height: 3rem; width: .4rem; background: #6f6482; transform: rotate(35deg); position: absolute; right: -8px; bottom: -2px; border-radius: 2px 2px 0 0; }
@@ -106,7 +106,6 @@ h1[data-page-title] { font-size: clamp(2rem, 3vw, 2.85rem); letter-spacing: -.05
   .ink-hero h1 { font-size: clamp(3.8rem, 12vw, 5.6rem); }
   .eyebrow { margin-bottom: 1.4rem; }
   .paper-scene { min-height: 30rem; max-width: 27rem; width: 100%; margin: 0 auto; }
-  .handwriting { font-size: 3.8rem; }
   .journey-grid { grid-template-columns: 1fr; }
   .journey-header p { display: none; }
   .getting-ready { display: block; }
